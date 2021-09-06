@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+#movies{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items:baseline;
+    margin:1rem;
+    padding:1rem;
+    font-family: 'Roboto', sans-serif;
+}
+#movies a{
+    text-decoration: none;
+    color:#666;
+}
+#box{
+    position:relative;
+    margin:5px;
+    border:1px solid #FAFAFA;
+    border-radius:3px;
+}
+#box:hover{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+#box img{
+    border-radius:3px 3px 0px 0px;
+    width:225px;
+    object-fit: cover;
+}
+.date{
+    position:absolute;
+    right:5px;
+    top:5px;
+    color:#FFF;
+    background-color:red;
+    padding:3px 8px;
+    border-radius:6px;
+}
+#box h3,p{
+    padding:0.5rem 1rem;
+}
+#box h3{
+    text-align:center;
+}
+#homework2 h2{
+    text-align: center;
+    font-family: helvetica;
+    font-size:30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.genre{
+    background-color:#3DAFD5;
+    color:#FFF;
+    text-align: center;
+}
